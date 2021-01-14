@@ -1,0 +1,16 @@
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  border-bottom: 0.1rem solid #f9f9f9;
+}
+
+.header__logo {
+  object-fit: contain;
+  height: 4rem;
+}
