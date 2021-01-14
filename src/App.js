@@ -1,15 +1,14 @@
-import React from 'react'
+import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import Header from './Header'
-
 
 function App() {
   return (
-    //BEM class naming convention
     <div className="App">
-      <Header />
-      {/* TinderCards */}
-      {/* SwipeButtons */}
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Hello from V2</h1>
+      </header>
     </div>
   );
 }
